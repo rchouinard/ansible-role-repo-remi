@@ -1,0 +1,3 @@
+---
+remi_repo_url: "https://rpms.remirepo.net/fedora/remi-release-{{ ansible_distribution_major_version }}.rpm"
+remi_repo_gpg_key_url: "https://rpms.remirepo.net/RPM-GPG-KEY-remi201{% if ansible_distribution_major_version < 28 %}7{% else %}8{% endif %}"
