@@ -8,7 +8,7 @@ This role provides support for Remi's RPM repository.
 
 ## Dependencies
 
-* geerlingguy.repo-epel (for Enterprise Linux)
+* rchouinard.repo-epel (for Enterprise Linux)
 
 ## Example Playbook
 

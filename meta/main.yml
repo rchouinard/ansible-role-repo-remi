@@ -15,5 +15,5 @@ galaxy_info:
         - 27
   galaxy_tags: []
 dependencies:
-  - role: geerlingguy.repo-epel
+  - role: rchouinard.repo-epel
     when: ansible_os_family == "RedHat" and ansible_distribution != "Fedora"
